@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FancyExplorer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="shortcutKeyGesture" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ctrl+D</Value>
+    </Setting>
+    <Setting Name="windowHeightPercent" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+    <Setting Name="animFramerate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="animDuration" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.2</Value>
+    </Setting>
+    <Setting Name="autosavedTabs" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

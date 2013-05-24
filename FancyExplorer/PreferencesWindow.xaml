@@ -1,0 +1,19 @@
+﻿<Window x:Class="FancyExplorer.PreferencesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Preferences" Height="397.015" Width="564.179" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <TextBox x:Name="shortcutTextBox" HorizontalAlignment="Left" Height="23" Margin="129,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244"/>
+        <Label Content="Shortcut Toggle:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Window Height:" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="windowHeightLabel" Content="xxx" HorizontalAlignment="Left" Margin="129,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.423"/>
+        <Slider x:Name="windowHeightSlider" HorizontalAlignment="Left" Margin="195,64,0,0" VerticalAlignment="Top" Width="262"/>
+        <Label Content="Animation FPS:" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="animFPSLabel" Content="xxx" HorizontalAlignment="Left" Margin="129,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.423"/>
+        <Slider x:Name="animFPSSlider" HorizontalAlignment="Left" Margin="195,101,0,0" VerticalAlignment="Top" Width="262"/>
+        <Label Content="Animation Duration:" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="animDurationLabel" Content="xxx" HorizontalAlignment="Left" Margin="129,132,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.423"/>
+        <Slider x:Name="animDurationSlider" HorizontalAlignment="Left" Margin="195,137,0,0" VerticalAlignment="Top" Width="262"/>
+
+    </Grid>
+</Window>
